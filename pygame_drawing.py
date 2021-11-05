@@ -28,7 +28,11 @@ pygame.draw.line(Displaysurf,blue, (0,0),(300,300),13)
 pygame.draw.line(Displaysurf,red, (300,0),(0,300),13)
 pygame.draw.line(Displaysurf,green, (150,0),(150,300),10)
 pygame.draw.line(Displaysurf,black, (0,150),(300, 150),10)
-pygame.draw.circle(Displaysurf,white,(100,50),5)
+pygame.draw.circle(Displaysurf,white,(150,150),60)
+pygame.draw.rect(Displaysurf, red,(88,88,125,125))
+pygame.draw.circle(Displaysurf,white,(150,150),60)
+
+
 #game loop
 while True:
     for event in pygame.event.get():
